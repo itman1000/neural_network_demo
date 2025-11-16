@@ -13,8 +13,8 @@ export function DecisionCanvas({
   y: number[];
 }) {
   const ref = useRef<HTMLCanvasElement | null>(null);
-  const width = 420,
-    height = 420;
+  const width = 460,
+    height = 460;
 
   useEffect(() => {
     const c = ref.current;
